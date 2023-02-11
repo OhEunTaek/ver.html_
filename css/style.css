@@ -1197,11 +1197,10 @@ figure.pop .btnClose {
   overflow: hidden;
   background: #000;
 }
-#visual video {
+#visual > img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  opacity: 0.4;
 }
 #visual .inner {
   width: 1180px;
@@ -1218,7 +1217,7 @@ figure.pop .btnClose {
 }
 #visual .inner p {
   font: 16px/1.4 "arial";
-  color: #888;
+  color: #eee;
   margin-bottom: 80px;
 }
 #visual .inner a {
@@ -1228,7 +1227,7 @@ figure.pop .btnClose {
   font: bold 11px/30px "arial";
   color: #fff;
   text-align: center;
-  border: 1px solid #bbb;
+  border: 1px dotted #000;
 }
 #visual .inner a:hover {
   background: #fff;
